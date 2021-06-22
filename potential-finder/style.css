@@ -1,0 +1,172 @@
+* {
+  background :	#212121;
+  color: white;
+}
+
+.header h3 {
+  position : fixed;
+  top : 0px;
+  width : 100%;
+  height : 50px;
+  background : #171717;
+  color: 	white;
+  text-align: center;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  position : fixed;
+  bottom : 0px;
+  width : 100%;
+  height : 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+}
+
+.slidecontainer {
+  width: 100%;
+  background:  #171717;
+}
+
+.slider-1 {
+  -webkit-appearance: none;
+  width: 60%;
+  height: 7px;
+  border-radius: 4px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider-1:hover {
+  opacity: 1;
+}
+
+.slider-1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 0;
+  background: #f2003c;
+  cursor: pointer;
+}
+
+.slider-1::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border: 0;
+  background: #f2003c;
+  cursor: pointer;
+}
+
+
+.slider-2 {
+  -webkit-appearance: none;
+  width: 60%;
+  height: 7px;
+  border-radius: 4px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider-2:hover {
+  opacity: 1;
+}
+
+.slider-2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 0;
+  background: #f2003c;
+  cursor: pointer;
+}
+
+.slider-2::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border: 0;
+  background: #f2003c;
+  cursor: pointer;
+}
+
+h4 {
+  background : #171717;
+  padding-top: 2px;
+  color: white;
+  text-align: center;
+}
+
+h6 {
+  background : #171717;
+}
+
+h5 {
+  background : #171717;
+}
+
+button {
+  background-color: white;
+  color: #171717;
+  text-align: center;
+  cursor: pointer;
+}
+
+.charge-1 {
+  border: solid white;
+  text-align: center;
+  background: #171717;
+}
+
+.charge-2 {
+  border: solid white;
+  text-align: center;
+  background: #171717;
+}
+
+.charge-3 {
+  border: solid white;
+  text-align: center;
+  background: #171717;
+}
+
+.result {
+  border: solid white;
+  text-align: left;
+  color: white;
+  background: #171717;
+  padding-left: 20px;
+}
+
+#pos-charge-icon {
+  text-align: center;
+  height: 25px;
+  width: 25px;
+  cursor: all-scroll;
+  content:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT25iipv0CsksjsS6kMnKLLvMKeWLo-EplpEMQkiHc910FXs8AVJbLCBOszUNYqFJWd7tA&usqp=CAU);
+}
+
+#neg-charge-icon {
+  text-align: center;
+  height: 25px;
+  width: 25px;
+  cursor: all-scroll;
+  content:url(https://banner2.cleanpng.com/20190222/hbu/kisspng-plus-and-minus-signs-meno-computer-icons-negative-5c6f8527bd1a00.2100568415508124557746.jpg);
+}
+
+#test-charge-icon{
+  text-align: center;
+  height: 25px;
+  width: 25px;
+  bottom : 0px;
+  cursor: all-scroll;
+  content:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT25iipv0CsksjsS6kMnKLLvMKeWLo-EplpEMQkiHc910FXs8AVJbLCBOszUNYqFJWd7tA&usqp=CAU);
+}

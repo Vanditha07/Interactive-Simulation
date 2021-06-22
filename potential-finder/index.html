@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Potential Finder</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+  <div class="header">
+    <h3 id="refresh">POTENTIAL DUE TO A POINT CHARGE</h3>
+  </div>
+
+  <div class="section">
+  </div>
+
+  <div class="footer">
+    <div class="charge-1">
+      <div class="charge-name">
+        <h4>POSITIVE CHARGE</h4>
+      </div>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider-1" id="myRange-1">
+        <h6>value: <span id="demo-1"></span></h6>
+      </div>
+      <span id="pos-charge-icon"></span>
+    </div>
+
+    <div class="charge-2">
+      <div class="charge-name">
+        <h4>NEGATIVE CHARGE</h4>
+      </div>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider-2" id="myRange-2">
+        <h6>value: <span id="demo-2"></span></h6>
+      </div>
+      <span id="neg-charge-icon"></span>
+    </div>
+
+    <div class="charge-3">
+      <div class="charge-name">
+        <h4>TEST CHARGE</h4>
+      </div>
+      <span id="test-charge-icon"></span>
+    </div>
+
+    <div class="result">
+    <h4>RESULT</h4>
+    <h5>Length: <span id="length"></span></h5>
+    <h5>Potential: <span id="potential"></span></h5>
+    <button id="simulate" type="button">Simulate</button>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  </body>
+
+</html>

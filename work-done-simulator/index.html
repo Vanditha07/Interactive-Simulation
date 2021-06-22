@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Work Done</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+  <div class="header">
+    <h3 id="refresh">WORK DONE</h3>
+    <div id="control">
+      <span id="set-position-1">Initial</span>
+      <span id="set-position-2">Final</span>
+    </div>
+  </div>
+<div class="section">
+</div>
+  <div class="footer">
+
+    <div class="charge-1">
+      <div class="charge-name">
+        <h5>POSITIVE CHARGES</h5>
+      </div>
+      <div class="slidecontainer-1">
+        <input type="range" min="1" max="100" value="50" class="slider-1" id="myRange-1">
+        <p>value: <span id="demo-1"></span></p>
+        <span id="pos-charge-icon-1"></span>
+      </div>
+      <br />
+      <div class="slidecontainer-3">
+        <input type="range" min="1" max="100" value="50" class="slider-3" id="myRange-3">
+        <p>value: <span id="demo-3"></span></p>
+        <span id="pos-charge-icon-2"></span>
+      </div>
+    </div>
+
+    <div class="charge-2">
+      <div class="charge-name">
+        <h5>NEGATIVE CHARGES</h5>
+      </div>
+      <div class="slidecontainer-2">
+        <input type="range" max="-1" min="-100" value="-50" class="slider-2" id="myRange-2">
+        <p>value: <span id="demo-2"></span></p>
+        <span id="neg-charge-icon-1"></span>
+      </div>
+      <br />
+      <div class="slidecontainer-4">
+        <input type="range" max="-1" min="-100" value="-50" class="slider-4" id="myRange-4">
+        <p>value: <span id="demo-4"></span></p>
+        <span id="neg-charge-icon-2"></span>
+      </div>
+    </div>
+
+
+    <div class="result">
+    <h5>RESULT</h5>
+
+    <div class="result-wrapper">
+    <div id="position1">
+      <p>Length(cm): <span id="length1"></span></p>
+      <p>Potential(V/cm): <span id="potential1"></span></p>
+    </div>
+    <div id="position2" >
+      <p>Length(cm): <span id="length2"></span></p>
+      <p>Potential(V/cm): <span id="potential2"></span></p>
+    </div>
+    <div id="work-done-result" >
+      <p>Absolute Potential(V/m): <span id="abs-pot"></span></p>
+      <p>Work-done(J): <span id="work-done-display"></span></p>
+    </div>
+    </div>
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
