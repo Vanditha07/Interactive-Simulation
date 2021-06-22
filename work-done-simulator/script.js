@@ -55,7 +55,7 @@ function display_position2(x1, x2, y1, y2, charge_1, charge_2){
   $("#position2").show();
   const potential1 = document.getElementById("potential1").innerHTML;
   const potential2 = document.getElementById("potential2").innerHTML;
-  const abs_pot = (potential2 - potential1) / 100;
+  const abs_pot = Math.abs((potential2 - potential1)) / 100;
   const work_done = ((potential2 - potential1) * charge_2) / 10000;
   document.getElementById("abs-pot").innerHTML = abs_pot;
   document.getElementById("work-done-display").innerHTML = work_done;
